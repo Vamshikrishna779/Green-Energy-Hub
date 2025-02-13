@@ -190,10 +190,10 @@ nav {
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
    
-    /* .vision-contribution p {
-        font-size: inherit;
+    .vision-contribution p {
+        font-size:smaller;
         
-    } */
+    }
 
 
 
@@ -374,8 +374,9 @@ button:hover {
     order: -1; /* Image on the left */
 }
 
-/* Responsive Design */
-@media screen and (max-width: 1024px) {
+
+
+@media screen and (max-width: 768px) {
     .vision-content, .mission-content {
         gap: 20px;
         justify-content: center;
@@ -402,38 +403,7 @@ button:hover {
     }
 }
 
-@media screen and (max-width: 768px) {
-    .vision-content, .mission-content {
-        flex-direction: column;
-        text-align: center;
-    }
 
-    .vision-content img, .mission-content img {
-        order: 0;
-        width: 50%;
-    }
-
-    .vision-text, .mission-text {
-        max-width: 95%;
-       
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .vision-content, .mission-content {
-        padding: 20px;
-    }
-
-    .vision-content img, .mission-content img {
-        width: 100%;
-    }
-
-    .vision-text, .mission-text {
-        
-        line-height: 1.4;
-        color: black;
-    }
-}
 /* Services Section */
 #services {
     text-align: center;
