@@ -137,9 +137,8 @@ nav {
     animation: fadeInUp 1.5s ease-in-out;
 }
 .hero-overlay p{
+    font-size: 0.95rem;
     text-align: center;
-    font-size: 1.0rem;
-   
 }
 
 .hero input {
@@ -181,7 +180,7 @@ nav {
     color: #007bff;
 }
 .vision-contribution p{
-    font-size: 1.0rem;
+    font-size: 0.95rem;
 }
 
 
@@ -195,7 +194,7 @@ nav {
 @media (max-width: 768px) {
    
     .vision-contribution p {
-        font-size:smaller;
+        font-size:small;
         
     }
 
@@ -378,9 +377,8 @@ button:hover {
     order: -1; /* Image on the left */
 }
 
-
-
-@media screen and (max-width: 768px) {
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
     .vision-content, .mission-content {
         gap: 20px;
         justify-content: center;
@@ -407,7 +405,38 @@ button:hover {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .vision-content, .mission-content {
+        flex-direction: column;
+        text-align: center;
+    }
 
+    .vision-content img, .mission-content img {
+        order: 0;
+        width: 50%;
+    }
+
+    .vision-text, .mission-text {
+        max-width: 95%;
+       
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .vision-content, .mission-content {
+        padding: 20px;
+    }
+
+    .vision-content img, .mission-content img {
+        width: 100%;
+    }
+
+    .vision-text, .mission-text {
+        
+        line-height: 1.4;
+        color: black;
+    }
+}
 /* Services Section */
 #services {
     text-align: center;
@@ -638,7 +667,7 @@ footer {
 
 /* Footer Sections */
 .footer-section {
-    font-size: 1.0rem;
+    font-size: 0.95rem;
     width: 35%;
     min-width: 220px;
 }
@@ -656,12 +685,12 @@ footer {
 }
 
 .footer-section ul li {
+    font-size: 0.95rem;
     margin-bottom: 10px;
 
 }
 
 .footer-section ul li a {
-    font-size: 1.0rem;
     color: white;
     text-decoration: none;
     transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
@@ -692,7 +721,7 @@ footer {
 
 /* Footer Bottom Section */
 .footer-bottom {
-    font-size: 1.0rem;
+    font-size: 0.95rem;
     text-align: center;
     margin-top: 30px;
     opacity: 0.8;
@@ -703,12 +732,14 @@ footer {
 /* Responsive Design */
 @media (max-width: 768px) {
     .footer-container {
+        font-size: 0.95rem;
         flex-direction: row;
         align-items: left;
         text-align:left;
     }
 
     .footer-section {
+        font-size: 0.95rem;
         width: 100%;
     }
 
@@ -843,9 +874,11 @@ table tr:hover {
 /* Media Queries for Responsive Design */
 @media (max-width: 1200px) {
     .footer-container {
+        font-size: 0.95rem;
         flex-direction: column;
     }
     .footer-section {
+        font-size: 0.95rem;
         width: 100%;
         margin-bottom: 20px;
     }
