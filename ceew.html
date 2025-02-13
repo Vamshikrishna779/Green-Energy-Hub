@@ -35,6 +35,7 @@
         
         .logo img {
             height: 50px;
+         
         }
         
         nav {
@@ -214,18 +215,39 @@
         .infocus-text p a:hover {
             text-decoration: underline;
         }
-        
-        /* Logos */
-        .logos {
-            display: flex;
-            gap: 15px;
-            margin-top: 10px;
-        }
-        
-        .logos img {
-            
-            height: 100px;
-        }
+       /* Logos */
+/* Logos */
+.logos {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap if needed */
+    gap: 15px;
+    margin-top: 10px;
+    flex-direction: row; /* Default: column layout */
+    width: 100%;
+     /* Centers logos in column mode */
+}
+
+.logos img {
+    width: 100px; /* Fixed width */
+    height: 100px;
+    object-fit: contain; /* Prevents distortion */
+}
+
+/* Responsive: Change to row layout on smaller screens */
+@media (max-width: 768px) {
+    .logos {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row; /* Switch to side-by-side */
+         /* Center the logos */
+    }
+
+    .logos img {
+        width: 80px; /* Reduce size for smaller screens */
+        height: 80px;
+    }
+}
+
         
         /* Responsive In Focus */
         @media screen and (max-width: 768px) {
