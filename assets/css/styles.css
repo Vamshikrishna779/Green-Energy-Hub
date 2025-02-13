@@ -138,6 +138,8 @@ nav {
 }
 .hero-overlay p{
     text-align: center;
+    font-size: 1.0rem;
+   
 }
 
 .hero input {
@@ -178,7 +180,9 @@ nav {
 .vision-contribution h2 {
     color: #007bff;
 }
-
+.vision-contribution p{
+    font-size: 1.0rem;
+}
 
 
 /* Highlighting Your Name */
@@ -634,6 +638,7 @@ footer {
 
 /* Footer Sections */
 .footer-section {
+    font-size: 1.0rem;
     width: 35%;
     min-width: 220px;
 }
@@ -656,6 +661,7 @@ footer {
 }
 
 .footer-section ul li a {
+    font-size: 1.0rem;
     color: white;
     text-decoration: none;
     transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
@@ -686,6 +692,7 @@ footer {
 
 /* Footer Bottom Section */
 .footer-bottom {
+    font-size: 1.0rem;
     text-align: center;
     margin-top: 30px;
     opacity: 0.8;
