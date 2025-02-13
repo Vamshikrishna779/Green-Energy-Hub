@@ -161,6 +161,48 @@ nav {
     background-color: #16A085;
     transform: scale(1.1);
 }
+
+/* Vision & Contribution Section */
+.vision-contribution {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    text-align: justify;
+}
+
+.vision-contribution .container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.vision-contribution h2 {
+    color: #007bff;
+}
+
+.vision-contribution p {
+    
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Highlighting Your Name */
+.name-highlight {
+    color: #258f82;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+   
+    .vision-contribution p {
+        
+    }
+
+    .name-highlight {
+        
+    }
+
+
+}
 /* About Us Section */
 #about {
     display: flex;
