@@ -48,6 +48,7 @@ nav {
 
 .nav-links li {
     display: inline;
+    width: max-content;
 }
 
 .nav-links li a {
@@ -55,6 +56,7 @@ nav {
     color: white;
     padding: 8px 15px;
     border-radius: 5px;
+    width: max-content;
     transition: 0.3s;
 }
 
@@ -131,12 +133,11 @@ nav {
 }
 
 .hero p {
-    
     margin-bottom: 20px;
     animation: fadeInUp 1.5s ease-in-out;
 }
 .hero-overlay p{
-    text-align: justify;
+    text-align: center;
 }
 
 .hero input {
@@ -144,7 +145,7 @@ nav {
     padding: 12px;
     border: none;
     border-radius: 5px;
-    font-size: 1rem;
+    
 }
 
 .hero button {
@@ -178,11 +179,7 @@ nav {
     color: #007bff;
 }
 
-.vision-contribution p {
-    
-    color: #333;
-    line-height: 1.6;
-}
+
 
 /* Highlighting Your Name */
 .name-highlight {
@@ -193,13 +190,12 @@ nav {
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
    
-    .vision-contribution p {
+    /* .vision-contribution p {
+        font-size: inherit;
         
-    }
+    } */
 
-    .name-highlight {
-        
-    }
+
 
 
 }
@@ -371,7 +367,9 @@ button:hover {
 .vision-text img{
     display:none;
 }
-
+.mission-text img{
+    display: none;
+}
 .mission-content img {
     order: -1; /* Image on the left */
 }
@@ -393,8 +391,14 @@ button:hover {
     .vision-text img{
         display:block;
     }
+    .mission-content img{
+        display: none;
+    }
+    .mission-text img{
+        display: block;
+    }
     .vision-text, .mission-text {
-        max-width: 80%;
+        max-width: 90%;
     }
 }
 
@@ -646,7 +650,7 @@ footer {
     background-color: #111; /* Darker shade for depth */
     color: white;
     padding: 50px 20px;
-    font-family: 'Arial', sans-serif;
+   
 }
 
 .footer-container {
