@@ -166,6 +166,7 @@ nav {
 
 /* Vision & Contribution Section */
 .vision-contribution {
+    font-size: 0.95rem;
     background-color: #ffffff;
     padding: 50px 20px;
     text-align: justify;
@@ -339,7 +340,7 @@ button:hover {
 /* Text Styling */
 .vision-text, .mission-text {
     color: rgb(12, 13, 12);
-    max-width: 550px;
+    max-width: 480px;
     text-align: justify; /* Justify text for better readability */
     /*font-size: 1.1rem; Increases font size for better readability */
     line-height: 1.6;
