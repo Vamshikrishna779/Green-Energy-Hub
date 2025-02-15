@@ -49,8 +49,7 @@ India-Green-Energy-Hub/
 
 ## Contact
 For any queries, feedback, or collaboration opportunities, reach out to:
-- **Email:** contact@greenenergyhub.in
-- **Phone:** +91 7997410508
+
 - **GitHub:** [Vamshikrishna08](https://github.com/Vamshikrishna779)
 - **LinkedIn:** [Your LinkedIn Profile](#)
 
