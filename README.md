@@ -45,28 +45,13 @@ India-Green-Energy-Hub/
    ```
 3. Open `index.html` in your browser.
 
-## Contributing
-We welcome contributions! Follow these steps:
-1. Fork the repository.
-2. Create a new branch:
-   ```sh
-   git checkout -b feature-branch
-   ```
-3. Make your changes and commit:
-   ```sh
-   git commit -m "Added new feature"
-   ```
-4. Push to your branch:
-   ```sh
-   git push origin feature-branch
-   ```
-5. Open a pull request.
+
 
 ## Contact
 For any queries, feedback, or collaboration opportunities, reach out to:
 - **Email:** contact@greenenergyhub.in
 - **Phone:** +91 7997410508
-- **GitHub:** [Vamshikrishna08](https://github.com/Vamshikrishna08)
+- **GitHub:** [Vamshikrishna08](https://github.com/Vamshikrishna779)
 - **LinkedIn:** [Your LinkedIn Profile](#)
 
 ## Join the Movement
