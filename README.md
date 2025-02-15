@@ -50,7 +50,7 @@ India-Green-Energy-Hub/
 ## Contact
 For any queries, feedback, or collaboration opportunities, reach out to:
 
-- **GitHub:** [Vamshikrishna08](https://github.com/Vamshikrishna779)
+- **GitHub:** [Vamshikrishna779](https://github.com/Vamshikrishna779)
 - **LinkedIn:** [Your LinkedIn Profile](#)
 
 ## Join the Movement
