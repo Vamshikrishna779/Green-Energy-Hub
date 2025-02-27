@@ -51,7 +51,7 @@ India-Green-Energy-Hub/
 For any queries, feedback, or collaboration opportunities, reach out to:
 
 - **GitHub:** [Vamshikrishna779](https://github.com/Vamshikrishna779)
-- **LinkedIn:** [Your LinkedIn Profile](#)
+
 
 ## Join the Movement
 By supporting renewable energy solutions and sustainable practices, we can build a cleaner and energy-efficient India. Let’s work together for a greener future!
