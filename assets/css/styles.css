@@ -253,7 +253,7 @@ nav {
 
 /* Checkmark Icon */
 .about-content ul li::before {
-    content: "✔";
+/*     content: "✔"; */
     position: absolute;
     left: 0;
     color: #1ABC9C;
