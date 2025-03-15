@@ -187,7 +187,7 @@ h2 {
 }
 
 #policies ul li::before {
-/*     content: "✔"; */
+     content: "✔"; 
     position: absolute;
     left: 0;
     color: #008000;
